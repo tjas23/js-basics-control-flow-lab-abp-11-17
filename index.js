@@ -23,6 +23,9 @@ function scuberGreetingForFeet(distance) {
 // }
 // this kills both functions
 
+// Avi's solution:
+// return (city === "NYC") ? "Ok, sounds good." : "No go."
+
 
 function ternaryCheckCity(city) {
   const message = (city === "NYC" ? "Ok, sounds good." : "No go.") ;
